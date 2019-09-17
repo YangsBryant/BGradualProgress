@@ -1,0 +1,31 @@
+<resources >
+    <!--渐变色环形进度-->
+    <declare-styleable name="BGradualProgress">
+        <!--圆环颜色-->
+        <attr name="grp_roundColor" format="color" />
+        <!--圆环的宽度-->
+        <attr name="grp_roundWidth" format="dimension" />
+        <!--圆环上的进度宽度-->
+        <attr name="grp_progressWidth" format="dimension" />
+        <!--圆环上的弧是否使用圆角-->
+        <attr name="grp_progressFillet" format="boolean" />
+        <!--进度值的最大值，一般为100-->
+        <attr name="grp_max" format="integer" />
+        <!--文字内容-->
+        <attr name="grp_text" format="string" />
+        <!--文字指示颜色-->
+        <attr name="grp_textColor" format="color" />
+        <!--文字指示字体大小-->
+        <attr name="grp_textSize" format="dimension" />
+        <!--是否显示文字指示内容-->
+        <attr name="grp_textShow" format="boolean" />
+        <!--开始角度，指定进度初始点的绘制位置-->
+        <attr name="grp_startAngle" format="integer" />
+        <!--渐变色起始色-->
+        <attr name="grp_startColor" format="color" />
+        <!--渐变色中间色-->
+        <attr name="grp_midColor" format="color" />
+        <!--渐变色终止色-->
+        <attr name="grp_endColor" format="color" />
+    </declare-styleable>
+</resources>
