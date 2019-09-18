@@ -15,6 +15,7 @@ import android.view.View;
 /**
  * 渐变色环形进度条
  */
+
 public class BGradualProgress extends View {
 
     private int roundColor; // 圆环的颜色
@@ -30,7 +31,6 @@ public class BGradualProgress extends View {
     private int startColor; // 渐变色起始色
     private int midColor; // 渐变色中间色
     private int endColor; // 渐变色起始色
-
 
     private Paint paint; // 画笔对象的引用
     private int max; // 最大进度
