@@ -39,3 +39,27 @@ setMax(int max) | 设置进度的最大值
 getProgress() | 获取当前进度值
 setProgress(int progress) | 设置当前进度
 setText(String text | 更新文本内容
+
+## 布局控件
+
+```java
+    <com.bryant.progresslibrary.BGradualProgress
+        android:id="@+id/progress"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        app:grp_endColor="#00000000"
+        app:grp_midColor="#5289F5"
+        app:grp_startColor="#dce7fd"
+        app:grp_max="100"
+        app:grp_roundColor="#dce7fd"
+        app:grp_roundWidth="6dp"
+        app:grp_startAngle="-90"
+        app:grp_textColor="#5289F5"
+        app:grp_textSize="16sp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="50dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginStart="30dp"
+        />
+```
+## GIF图里的代码上面的demo有
