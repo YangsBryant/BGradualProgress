@@ -1,6 +1,6 @@
 # BGradualProgress
 渐变进度条
-![这是一张图片](https://github.com/YangsBryant/BGradualProgress/blob/master/zdi58-can13.gif)
+![这是一张图片](https://github.com/YangsBryant/BGradualProgress/blob/master/Screenrecorder-2019-09-20-22-31-13-781.mp4)
 
 ## 引入module
 ```java
