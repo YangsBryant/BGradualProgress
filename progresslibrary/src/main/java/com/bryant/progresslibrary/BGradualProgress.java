@@ -152,5 +152,31 @@ public class BGradualProgress extends View {
         this.text=text;
     }
 
+    /**
+     * 设置圆环底色
+     */
+    public void setRoundColor(int roundColor) {
+        this.roundColor = roundColor;
+    }
 
+    /**
+     * 设置渐变起始色
+     */
+    public void setStartColor(int startColor) {
+        this.startColor = startColor;
+    }
+
+    /**
+     * 设置渐变中间色
+     */
+    public void setMidColor(int midColor) {
+        this.midColor = midColor;
+    }
+
+    /**
+     * 设置渐变终止色
+     */
+    public void setEndColor(int endColor) {
+        this.endColor = endColor;
+    }
 }

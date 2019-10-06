@@ -5,7 +5,6 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
 import android.support.v7.app.AppCompatActivity;
-
 import com.bryant.progresslibrary.BGradualProgress;
 
 public class MainActivity extends AppCompatActivity {
@@ -20,6 +19,9 @@ public class MainActivity extends AppCompatActivity {
         progress = findViewById(R.id.progress);
         progress.setProgress(30);
         progress.setText("进度");
+        progress.setStartColor(getResources().getColor(R.color.colorAccent3));
+        progress.setMidColor(getResources().getColor(R.color.colorAccent2));
+        progress.setEndColor(getResources().getColor(R.color.colorAccent1));
 
         progress2 = findViewById(R.id.progress2);
         progress2.setProgress(40);
@@ -34,6 +36,7 @@ public class MainActivity extends AppCompatActivity {
         progress4.setText("渐变"+progress4.getProgress()+"%");
 
         new MyThread().start();
+
     }
 
     class MyThread extends Thread {
