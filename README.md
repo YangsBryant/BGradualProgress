@@ -13,7 +13,7 @@ allprojects {
 }
 ```
 ```java
-implementation 'com.github.YangsBryant:BGradualProgress:1.0.3'
+implementation 'com.github.YangsBryant:BGradualProgress:1.0.4'
 ```
 
 ## BGradualProgress控件属性
@@ -39,6 +39,10 @@ setMax(int max) | 设置进度的最大值
 getProgress() | 获取当前进度值
 setProgress(int progress) | 设置当前进度
 setText(String text | 更新文本内容
+setRoundColor(int roundColor) | 设置圆环底色
+setStartColor(int startColor) | 设置渐变起始色
+setMidColor(int midColor) | 设置渐变中间色
+setEndColor(int endColor) | 设置渐变终止色
 
 ## 布局控件
 
@@ -61,6 +65,7 @@ setText(String text | 更新文本内容
         app:layout_constraintLeft_toLeftOf="parent"
         android:layout_marginStart="30dp"
         />
+     Tips:这是gif里的第一个控件，参考圆环底色+渐变‘起始 中间 终止’ 的颜色值，可调出柔和、好看的渐变   
 ```
 ## GIF图里的代码上面的demo有
 ## 联系QQ：961606042
