@@ -38,7 +38,7 @@ app:grp_endColor | 渐变的终止色
 setMax(int max) | 设置进度的最大值
 getProgress() | 获取当前进度值
 setProgress(int progress) | 设置当前进度
-setText(String text | 更新文本内容
+setText(String text) | 更新文本内容
 setRoundColor(int roundColor) | 设置圆环底色
 setStartColor(int startColor) | 设置渐变起始色
 setMidColor(int midColor) | 设置渐变中间色
